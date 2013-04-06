@@ -1,0 +1,17 @@
+[Fedoraillnois] 
+name=Fedora 18 – i386 
+baseurl=http://cosmos.cites.illinois.edu/pub/fedora/linux/releases/18/Fedora/i386/os/ 
+enabled=1 
+gpgcheck=0 
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora 
+[Everythingillnois] 
+name=Everything 18 – i386 
+baseurl=http://cosmos.cites.illinois.edu/pub/fedora/linux/releases/18/Everything/i386/os/ 
+enabled=1 
+gpgcheck=0 
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora 
+[updatesillnois] 
+name=Fedora updates 
+baseurl=http://cosmos.cites.illinois.edu/pub/fedora/linux/updates/18/i386/ 
+enabled=1 
+gpgcheck=0
