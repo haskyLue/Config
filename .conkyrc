@@ -4,7 +4,7 @@ xftfont Ubuntu:size=10
 update_interval 1
 own_window yes
 own_window_argb_visual true
-own_window_argb_value 150
+own_window_argb_value 100
 own_window_hints undecorated,below,skip_taskbar,sticky
 double_buffer yes
 minimum_size 235 900
@@ -34,22 +34,22 @@ Uptime${alignr}${uptime}
 Processes${alignr}${processes} ($running_processes running)
 Load${alignr}${loadavg}
 
-CPU 1 ${alignr}${color #7BFF00}${cpu cpu1}%    ${freq 1} MHz
-${cpubar 4 cpu1}${color}
-CPU 2 ${alignr}${color #F9FF00}${cpu cpu2}%    ${freq 2} MHz
-${cpubar 4 cpu2}${color}
-CPU 3 ${alignr}${color #FF0100}${cpu cpu3}%    ${freq 3} MHz
-${cpubar 4 cpu3}${color}
-CPU 4 ${alignr}${color #FF00E4}${cpu cpu4}%    ${freq 4} MHz
-${cpubar 4 cpu4}${color}
-CPU 5 ${alignr}${color #AE69FF}${cpu cpu5}%    ${freq 5} MHz
-${cpubar 4 cpu5}${color}
-CPU 6 ${alignr}${color #0084FF}${cpu cpu6}%    ${freq 6} MHz
-${cpubar 4 cpu6}${color}
-CPU 7 ${alignr}${color #00FFFB}${cpu cpu7}%    ${freq 7} MHz
-${cpubar 4 cpu7}${color}
-CPU 8 ${alignr}${color #FF7F00}${cpu cpu8}%    ${freq 8} MHz
-${cpubar 4 cpu8}${color}
+CPU 1 ${alignr}${color #7BFF00}${cpu cpu1}%    ${freq 1} Mhz
+${cpubar cpu1 4}${color}
+CPU 2 ${alignr}${color #F9FF00}${cpu cpu2}%    ${freq 2} Mhz
+${cpubar cpu2 4}${color}
+CPU 3 ${alignr}${color #FF0100}${cpu cpu3}%    ${freq 3} Mhz
+${cpubar cpu3 4}${color}
+CPU 4 ${alignr}${color #FF00E4}${cpu cpu4}%    ${freq 4} Mhz
+${cpubar cpu4 4}${color}
+CPU 5 ${alignr}${color #AE69FF}${cpu cpu5}%    ${freq 5} Mhz
+${cpubar cpu5 4}${color}
+CPU 6 ${alignr}${color #0084FF}${cpu cpu6}%    ${freq 6} Mhz
+${cpubar cpu6 4}${color}
+CPU 7 ${alignr}${color #00FFFB}${cpu cpu7}%    ${freq 7} Mhz
+${cpubar cpu7 4}${color}
+CPU 8 ${alignr}${color #FF7F00}${cpu cpu8}%    ${freq 8} Mhz
+${cpubar cpu8 4}${color}
 
 RAM ${alignr}${color #00C9FF}${mem} / ${memmax} ($memperc%)
 ${membar 4}${color}
@@ -91,6 +91,6 @@ NETWORK ${hr 1}
 
 Private IP Address${alignr}${addr enp5s0}
 
-${color #00C0FF}${downspeedf enp5s0}${color} KB/s${goto 107}Speed${alignr}${color #FF5C00}${upspeedf enp5s0}${color} KB/s
+${color #00C0FF}${downspeedf enp5s0}${color} KiB/s${goto 107}Speed${alignr}${color #FF5C00}${upspeedf enp5s0}${color} KiB/s
 ${totaldown enp5s0}${goto 110}Total${alignr}${totalup enp5s0}
 ${hr 1}
