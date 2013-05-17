@@ -1,0 +1,96 @@
+background yes
+use_xft yes
+xftfont Ubuntu:size=10
+update_interval 1
+own_window yes
+own_window_argb_visual true
+own_window_argb_value 100
+own_window_hints undecorated,below,skip_taskbar,sticky
+double_buffer yes
+minimum_size 235 900
+maximum_width 235
+draw_shades no
+draw_outline no
+draw_borders no
+stippled_borders no
+default_color white
+default_shade_color white
+default_outline_color white
+alignment top_right
+use_spacer none
+no_buffers yes
+uppercase no
+##################################################################
+TEXT
+${hr 1}
+
+${alignc}${time %Y %B %d (%A) - %r}
+
+SYSTEM ${hr 1}
+
+Kernel${alignr}${kernel}
+Uptime${alignr}${uptime}
+
+Processes${alignr}${processes} ($running_processes running)
+Load${alignr}${loadavg}
+
+CPU 1 ${alignr}${color #7BFF00}${cpu cpu1}%    ${freq 1} Mhz
+${cpubar cpu1 4}${color}
+CPU 2 ${alignr}${color #F9FF00}${cpu cpu2}%    ${freq 2} Mhz
+${cpubar cpu2 4}${color}
+CPU 3 ${alignr}${color #FF0100}${cpu cpu3}%    ${freq 3} Mhz
+${cpubar cpu3 4}${color}
+CPU 4 ${alignr}${color #FF00E4}${cpu cpu4}%    ${freq 4} Mhz
+${cpubar cpu4 4}${color}
+CPU 5 ${alignr}${color #AE69FF}${cpu cpu5}%    ${freq 5} Mhz
+${cpubar cpu5 4}${color}
+CPU 6 ${alignr}${color #0084FF}${cpu cpu6}%    ${freq 6} Mhz
+${cpubar cpu6 4}${color}
+CPU 7 ${alignr}${color #00FFFB}${cpu cpu7}%    ${freq 7} Mhz
+${cpubar cpu7 4}${color}
+CPU 8 ${alignr}${color #FF7F00}${cpu cpu8}%    ${freq 8} Mhz
+${cpubar cpu8 4}${color}
+
+RAM ${alignr}${color #00C9FF}${mem} / ${memmax} ($memperc%)
+${membar 4}${color}
+
+TEMPERATURE ${hr 1}
+
+CPU    Temperature${alignr}${color #05FF00}${platform coretemp.0 temp 1}${color} °C
+CPU 1 Temperature${alignr}${color #05FF00}${platform coretemp.0 temp 2}${color} °C
+CPU 2 Temperature${alignr}${color #05FF00}${platform coretemp.0 temp 3}${color} °C
+CPU 3 Temperature${alignr}${color #05FF00}${platform coretemp.0 temp 4}${color} °C
+CPU 4 Temperature${alignr}${color #05FF00}${platform coretemp.0 temp 5}${color} °C
+
+GPU    Temperature${alignr}${color #05FF00}${execi 1 nvidia-settings -q gpucoretemp | grep "Attribute" | cut -d" " -f6 | cut -c -2}${color} °C
+
+TOP ${hr 1}
+
+Highest CPU${alignr 17}CPU%${alignr 0}MEM%
+${top name 1}${alignr 30}${top cpu 1}${alignr 6}${top mem 1}
+${top name 2}${alignr 30}${top cpu 2}${alignr 6}${top mem 2}
+${top name 3}${alignr 30}${top cpu 3}${alignr 6}${top mem 3}
+${top name 4}${alignr 30}${top cpu 4}${alignr 6}${top mem 4}
+${top name 5}${alignr 30}${top cpu 5}${alignr 6}${top mem 5}
+
+Highest MEM${alignr 17}CPU%${alignr 0}MEM%
+${top_mem name 1}${alignr 30}${top_mem cpu 1}${alignr 6}${top_mem mem 1}
+${top_mem name 2}${alignr 30}${top_mem cpu 2}${alignr 6}${top_mem mem 2}
+${top_mem name 3}${alignr 30}${top_mem cpu 3}${alignr 6}${top_mem mem 3}
+${top_mem name 4}${alignr 30}${top_mem cpu 4}${alignr 6}${top_mem mem 4}
+${top_mem name 5}${alignr 30}${top_mem cpu 5}${alignr 6}${top_mem mem 5}
+
+DISKS ${hr 1}
+
+Root ${alignr}${fs_used /} / ${fs_free /} / ${fs_size /}
+${fs_bar 4 /}
+Home ${alignr}${fs_used /home} / ${fs_free /home} / ${fs_size /home}
+${fs_bar 4 /home}
+
+NETWORK ${hr 1}
+
+Private IP Address${alignr}${addr enp5s0}
+
+${color #00C0FF}${downspeedf enp5s0}${color} KiB/s${goto 107}Speed${alignr}${color #FF5C00}${upspeedf enp5s0}${color} KiB/s
+${totaldown enp5s0}${goto 110}Total${alignr}${totalup enp5s0}
+${hr 1}
