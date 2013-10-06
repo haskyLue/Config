@@ -1,14 +1,10 @@
-About
-=
-
+#About
 This is myself some configure. Such as bashrc, vimrc, conkyrc and other config file. Only to backup.
 
-Files List
--
-Conky/.conkyrc
+##Files List
+*	ArchLinux/mirrorlist
+*	ArchLinux/.bashrc
 
-ArchLinux/mirrorlist
+*	Conky/.conkyrc
 
-ArchLinux/.bashrc
-
-Vim/.vimrc
+*	Vim/.vimrc
