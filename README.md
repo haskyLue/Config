@@ -5,9 +5,10 @@ This is myself some configure. Such as bashrc, vimrc, conkyrc and other config f
 
 Files List
 -
->Conky/.conkyrc
+Conky/.conkyrc
 
->ArchLinux/mirrorlist
->ArchLinux/.bashrc
+ArchLinux/mirrorlist
 
->Vim/.vimrc
+ArchLinux/.bashrc
+
+Vim/.vimrc
