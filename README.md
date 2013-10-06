@@ -1,15 +1,13 @@
-Config
-======
+About
+=
 
-MayKiller's .config
+This is myself some configure. Such as bashrc, vimrc, conkyrc and other config file. Only to backup.
 
-README
-=======
+Files List
+==
+Conky/.conkyrc
 
-conkyrc             Conky Config
+ArchLinux/mirrorlist
+ArchLinux/.bashrc
 
-conkyrc2            Another Conky Config
-
-mirrorlist          Arch Linux Mirrorlist
-
-illnois.repo        Fedora Mirror Repo
+Vim/.vimrc
