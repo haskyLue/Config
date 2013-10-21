@@ -10,12 +10,18 @@ set ruler
 set ignorecase smartcase
 set incsearch
 set hlsearch
+set noic
 
 set smartindent
 set shiftwidth=4
 set softtabstop=4
 set tabstop=4
 set expandtab
+
+let g:devhelpSearch=1
+let g:devhelpAssistant=1
+
+set tags+=~/.vim/tags/gtk3
 
 nnoremap <C-N> :set nonumber!<CR>:set foldcolumn=0<CR>
 nnoremap <C-B> :call CompileStart()<CR>
