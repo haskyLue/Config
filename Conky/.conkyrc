@@ -4,8 +4,9 @@ xftfont Cantarell:size=9
 update_interval 1
 own_window yes
 own_window_argb_visual true
-own_window_argb_value 76.5
-own_window_hints undecorated,below,skip_taskbar,sticky
+own_window_argb_value 150 
+own_window_hints undecorated,skip_taskbar,above,sticky
+#own_window_type panel
 double_buffer yes
 minimum_size 1440
 maximum_width 1440
@@ -23,4 +24,4 @@ uppercase no
 gap_y 0
 ##################################################################
 TEXT
-   CPU 1   ${color #7BFF00}${cpubar cpu1 9,70}${color}  CPU 2   ${color #F9FF00}${cpubar cpu2 9,70}${color}  CPU 3   ${color #FF0100}${cpubar cpu3 9,70}${color}  CPU 4   ${color #FF00E4}${cpubar cpu4 9,70}${color}  CPU 5   ${color #AE69FF}${cpubar cpu5 9,70}${color}  CPU 6   ${color #0084FF}${cpubar cpu6 9,70}${color}  CPU 7   ${color #00FFFB}${cpubar cpu7 9,70}${color}  CPU 8   ${color #FF7F00}${cpubar cpu8 9,70}${color}  RAM   ${color #00C9FF}${membar 9,70}${color}     |    CPU   ${color #05FF00}${platform coretemp.0 temp 1}${color} °C       GPU   ${color #05FF00}${execi 1 nvidia-settings -q gpucoretemp | grep "gpu" | cut -d " " -f6 | cut -c -2}${color} °C    |${goto 1200}Uptime   ${uptime}${alignr}Kernel   ${kernel}
+   CPU 1   ${color #7BFF00}${cpubar cpu1 9,70}${color}   CPU 2   ${color #F9FF00}${cpubar cpu2 9,70}${color}   CPU 3   ${color #FF0100}${cpubar cpu3 9,70}${color}   CPU 4   ${color #FF00E4}${cpubar cpu4 9,70}${color}   CPU 5   ${color #AE69FF}${cpubar cpu5 9,70}${color}   CPU 6   ${color #0084FF}${cpubar cpu6 9,70}${color}   CPU 7   ${color #00FFFB}${cpubar cpu7 9,70}${color}   CPU 8   ${color #FF7F00}${cpubar cpu8 9,70}${color}   RAM   ${color #00C9FF}${membar 9,70}${color}     |   CPU   ${color #05FF00}${platform coretemp.0 temp 1}${color} °C    GPU   ${color #05FF00}${execi 1 nvidia-settings -q gpucoretemp | grep "gpu" | cut -d " " -f6 | cut -c -2}${color} °C   |${goto 1211}Uptime   ${uptime}${alignr}Kernel   ${kernel}   
