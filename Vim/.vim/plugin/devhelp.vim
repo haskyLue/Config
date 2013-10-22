@@ -3,18 +3,18 @@
 " Copyright (c) 2008 Jannis Pohlmann <jannis@xfce.org>
 "
 " To enable devhelp search:
-"   let g:devhelpSearch=1
-" 
+   let g:devhelpSearch=1
+"
 " To enable devhelp assistant:
 "   let g:devhelpAssistant=1
-" 
-" To change the update delay (e.g. to 150ms):  
+"
+" To change the update delay (e.g. to 150ms):
 "   set updatetime=150
-" 
+"
 " To change the search key (e.g. to F5):
 "   let g:devhelpSearchKey = '<F5>'
-" 
-" To change the length (e.g. to 5 characters) before a word becomes 
+"
+" To change the length (e.g. to 5 characters) before a word becomes
 " relevant:
 "   let g:devhelpWordLength = 5
 "
@@ -25,12 +25,12 @@
 "
 " This program is distributed in the hope that it will be useful,
 " but WITHOUT ANY WARRANTY; without even the implied warranty of
-" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU 
+" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 " General Public License for more details.
 "
 " You should have received a copy of the GNU General Public License
 " along with this program; if not, write to the Free Software
-" Foundation, Inc., 59 Temple Place - Suite 330, Boston, 
+" Foundation, Inc., 59 Temple Place - Suite 330, Boston,
 " MA 02111-1307, USA.
 
 " Devhelp plugin configuration. These variables may be set in .vimrc
@@ -42,7 +42,7 @@ if !exists ('g:devhelpWordLength')
   let g:devhelpWordLength = 5
 endif
 
-" Variable for remembering the last assistant word 
+" Variable for remembering the last assistant word
 let s:lastWord = ''
 
 function! GetCursorWord ()
@@ -70,13 +70,13 @@ function! DevhelpUpdate (flag)
       if s:lastWord != s:word && strlen (s:word) > g:devhelpWordLength
         " Update Devhelp
         call system ('devhelp -a '.s:word.' &')
-    
+
         " Remember the word for next time
         let s:lastWord = s:word
       end
     else
       " Update devhelp search window. Since the user intentionally
-      " pressed the search key, the word is not checked for its 
+      " pressed the search key, the word is not checked for its
       " length or whether it's new
       call system ('devhelp -s '.s:word.' &')
     end
@@ -108,7 +108,7 @@ if exists ('g:devhelpSearch') && g:devhelpSearch
 endif
 
 if exists ('g:devhelpAssistant') && g:devhelpAssistant
-  " Update the assistant window if the user hasn't pressed a key for a 
+  " Update the assistant window if the user hasn't pressed a key for a
   " while. See :help updatetime for how to change this delay
   au! CursorHold  * nested call DevhelpUpdate('a')
   au! CursorHoldI * nested call DevhelpUpdate('a')
