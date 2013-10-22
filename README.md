@@ -6,4 +6,4 @@ This is myself some configure. Such as bashrc, vimrc, conkyrc and other config f
 *	ArchLinux/.bashrc
 *	Conky/.conkyrc
 *	Vim/.vimrc
-*   Vim/.vim
+*   Vim/.vim/\*
