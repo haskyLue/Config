@@ -1,0 +1,134 @@
+# Rime user dictionary export
+#@/db_name	luna_pinyin.userdb.kct
+#@/db_type	userdb
+#@/rime_version	0.9.9
+#@/tick	195
+#@/user_id	0f1e81d8-d078-4c4a-9f8b-614220b07fcd
+啊	a	1
+愛上	ai shang	1
+拜託	bai tuo	1
+擺脫	bai tuo	1
+半個	ban ge	1
+比	bi	1
+別	bie	1
+不是	bu shi	1
+不顯示	bu xian shi	1
+不知道	bu zhi dao	1
+才	cai	1
+詞	ci	1
+詞庫	ci ku	2
+當我	dang wo	1
+到	dao	2
+的	de	14
+東西	dong xi	1
+符號	fu hao	1
+幹嘛	gan ma	1
+告訴	gao su	0
+告訴我	gao su wo	1
+給	gei	2
+給力	gei li	1
+過	guo	0
+哈哈	ha ha	1
+哈密瓜	ha mi gua	1
+還是	hai shi	1
+汗顏	han yan	1
+好	hao	1
+好吧	hao ba	1
+很不錯	hen bu cuo	1
+話說	hua shuo	2
+會	hui	1
+回來	hui lai	1
+激活	ji huo	0
+激活器	ji huo qi	1
+即使	ji shi	1
+就是	jiu shi	1
+居然	ju ran	1
+看	kan	1
+可以	ke yi	1
+控制	kong zhi	1
+框架	kuang jia	1
+了	le	6
+聊	liao	0
+麼	me	6
+沒	mei	1
+沒辦法	mei ban fa	1
+秒殺	miao sha	1
+模糊	mo hu	2
+模式	mo shi	1
+那你	na ni	1
+能	neng	1
+你	ni	0
+弄	nong	2
+配置	pei zhi	1
+拼音	pin yin	2
+器	qi	0
+敲	qiao	1
+切換	qie huan	4
+去	qu	4
+軟件	ruan jian	1
+上	shang	1
+上屏	shang ping	2
+稍後	shao hou	0
+稍後聊	shao hou liao	1
+誰	shei	8
+神奇	shen qi	1
+是	shi	3
+時候	shi hou	1
+試試	shi shi	1
+使用	shi yong	0
+使用過	shi yong guo	1
+手冊	shou ce	1
+輸入	shu ru	1
+輸入法	shu ru fa	6
+順便	shun bian	1
+雖然	sui ran	1
+它	ta	1
+太多	tai duo	1
+特	te	1
+玩	wan	1
+完美	wan mei	1
+玩意兒	wan yi er	0
+文字	wen zi	1
+我	wo	5
+先去	xian qu	1
+現在	xian zai	1
+小白	xiao bai	1
+笑爆	xiao bao	1
+小毛病	xiao mao bing	1
+寫	xie	1
+信	xin	1
+需要	xu yao	1
+已	yi	0
+一個	yi ge	4
+一個是	yi ge shi	1
+已輸入	yi shu ru	1
+一下	yi xia	1
+引擎	yin qing	2
+應該	ying gai	1
+用	yong	4
+用的	yong de	1
+用戶	yong hu	2
+有	you	1
+預	yu	0
+預輸入	yu shu ru	1
+在	zai	6
+在幹嘛	zai gan ma	1
+在玩	zai wan	1
+怎麼	zen me	2
+找	zhao	1
+這	zhe	0
+這個	zhe ge	1
+這麼好	zhe me hao	0
+這麼好用	zhe me hao yong	1
+這是	zhe shi	1
+這玩意兒	zhe wan yi er	1
+真	zhen	1
+製表	zhi biao	1
+之後	zhi hou	1
+只有	zhi you	1
+自動	zi dong	1
+自動上詞	zi dong shang ci	1
+自動上屏	zi dong shang ping	1
+字母	zi mu	1
+組合	zu he	1
+最近	zui jin	1

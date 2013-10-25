@@ -1,0 +1,19 @@
+# Rime user dictionary
+#@/db_name	luna_pinyin.userdb.kct
+#@/db_type	userdb
+#@/rime_version	0.9.9
+#@/tick	21
+#@/user_id	0f1e81d8-d078-4c4a-9f8b-614220b07fcd
+ci 	詞	c=1 d=1.09005 t=13
+de 	的	c=5 d=4.65584 t=21
+jiu shi 	就是	c=1 d=1 t=3
+kong zhi 	控制	c=1 d=1 t=7
+qie huan 	切換	c=2 d=1.9802 t=16
+shang 	上	c=0 d=0.1 t=13
+shang ping 	上屏	c=2 d=2.09206 t=20
+shei 	誰	c=3 d=2.98506 t=10
+shu ru fa 	輸入法	c=2 d=1.9802 t=17
+zen me 	怎麼	c=1 d=1 t=6
+zi dong 	自動	c=1 d=1.19555 t=18
+zi dong shang ci 	自動上詞	c=1 d=1 t=14
+zi dong shang ping 	自動上屏	c=1 d=1 t=15
