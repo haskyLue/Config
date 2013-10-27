@@ -7,3 +7,4 @@ This is myself some configure. Such as bashrc, vimrc, conkyrc and other config f
 *   Vim
 *   Fcitx
 *   Empathy
+*   Server
