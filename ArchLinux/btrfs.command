@@ -1,0 +1,1 @@
+compress,space_cache,autodefrag
