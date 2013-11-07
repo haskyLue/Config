@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $1 | sha512sum  | md5sum | cut -c -16| base64 | md5sum | base64 | cut -c -32
