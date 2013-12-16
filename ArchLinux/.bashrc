@@ -13,19 +13,19 @@ alias pacSyy='yaourt -Syy'
 alias pacSyyu='yaourt -Syyu'
 alias pacSyyua='yaourt -Syyua'
 alias pacR='yaourt -R'
-alias pacRs='yaourt -Rs'
+alias pacRs='yaourt -Rsc'
 alias pacRdd='yaourt -Rdd'
-alias pacRdds='yaourt -Rdds'
+alias pacRdds='yaourt -Rddsc'
 alias pacQ='yaourt -Qs'
 alias pacQm='yaourt -Qm'
 alias pacQdt='yaourt -Qdt'
 alias pacU='yaourt -U'
 
-alias ipup='sudo ip-up'
-alias ipdown='sudo ip-down'
-
 alias free='free -m'
 
 alias x='sudo'
+
+alias gcc='gcc -std=c11'
+alias g++='g++ -std=c++11'
 
 PS1='\[\e[1;34m\]\h\[\e[m\] \[\e[1;35m\]\W\[\e[m\]\[\e[0;31m\] \$\[\e[m\] '
