@@ -9,3 +9,4 @@ This is myself some configure. Such as bashrc, vimrc, conkyrc and other config f
 *   Fcitx
 *   Server
 *   Vim
+*   Other..
